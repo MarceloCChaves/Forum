@@ -10,7 +10,7 @@
   * [Deploy do projeto](#deploy)
   * [Autor](#autor)
 
-# Teconologias
+# Tecnologias
 
 - HTML
 - CSS
