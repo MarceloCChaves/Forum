@@ -5,9 +5,9 @@
 <img alt="for.um" src="https://cdn.discordapp.com/attachments/757683099437105278/824811987154108476/unknown.png" width="100%">
 
 # Índice:
-  * [Tecnologias](#tecnologias)
-  * [Clone](#clone)
-  * [Deploy](#deploy)
+  * [Tecnologias utilizadas](#tecnologias utilizadas)
+  * [Clone este repositório](#clone este repositório
+  * [Deploy do projeto](#deploy do projeto)
   * [Autor](#autor)
 
 # Teconologias utilizadas
