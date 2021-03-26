@@ -11,15 +11,18 @@
   * [Autor](#autor)
 
 # Tecnologias
+### Algumas das tecnologias utilizadas do desenvolvimento do projeto
 
 - HTML
 - CSS
 - JavaScript
 
 # Clone
+### Para clonar o projeto, digite: 
 $ git clone https://github.com/MarceloCChaves/Forum.git
 
 # Deploy
+### Tentei dar deploy em diversos sites diferentes, mas sem exito
 Link: forum-marcelocchaves.vercel.app ( Não funciona )
 
 # Autor
