@@ -11,6 +11,7 @@
 - JavaScript
 
 # Clone este repositório
+- Abra o terminal e escreva: 
 $ git clone https://github.com/MarceloCChaves/Forum.git
 
 # Deploy do projeto 
