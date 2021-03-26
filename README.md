@@ -5,21 +5,21 @@
 <img alt="for.um" src="https://cdn.discordapp.com/attachments/757683099437105278/824811987154108476/unknown.png" width="100%">
 
 # Índice:
-  * [Tecnologias utilizadas](#tecnologias_utilizadas)
-  * [Clone este repositório](#clone_este_repositório
-  * [Deploy do projeto](#deploy_do_projeto)
+  * [Tecnologias utilizadas](#tecnologias)
+  * [Clone este repositório](#clone)
+  * [Deploy do projeto](#deploy)
   * [Autor](#autor)
 
-# Teconologias utilizadas
+# Teconologias
 
 - HTML
 - CSS
 - JavaScript
 
-# Clone este repositório
+# Clone
 $ git clone https://github.com/MarceloCChaves/Forum.git
 
-# Deploy do projeto 
+# Deploy
 Link: forum-marcelocchaves.vercel.app ( Não funciona )
 
 # Autor
