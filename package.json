@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "hs .",
+    "deploy": "gh-pages -d . -v node_modules"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "http-server": "^13.0.2"
+  }
+}
