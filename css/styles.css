@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #F0F2F5;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3498db;
+    height: 80px;
+    width: 100%;
+}
+.logo{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    flex-direction: column;
+    width: 100%;
+}
+.newPost{
+    text-align: center;
+    margin-top: 120px;
+}
+.newPost a{
+    color: #0097e6;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.newPost a:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+.container a:hover, .remove-post button:hover , .answer-post button:hover{
+    opacity: 0.8;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  .modal label{
+      display: flex;
+      flex-direction: column;
+      margin-top: 32px;
+      width: 50%;
+      font-size: 22px;
+  }
+  .modal input{
+      padding: 15px;
+      font-size: 18px;
+      border-radius: 8px;
+      border: 2px solid #ccc;
+  }
+  .modal textarea{
+      font-size: 18px;
+      border-radius: 8px;
+      border: 2px solid #ccc;
+      padding: 5px;
+  }
+  .modal input, textarea{
+      outline: none;
+  }
+  .modal button{
+      border: 2px solid #54a0ff;
+      color: #54a0ff;
+      background: white;
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 20px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: all 0.5s;
+  }
+  .modal button:hover{
+      background: #54a0ff;
+      color: white;
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    position: absolute;
+    top: 15%;
+    right: 12%;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.remove-post button{
+    color: white;
+    background: #f1140c;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.5s;
+    border: none;
+}
+.answer-post button, .answer-button button{
+    color: white;
+    background: #48b873;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.5s;
+    border: none;
+}

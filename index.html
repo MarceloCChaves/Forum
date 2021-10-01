@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>For.um</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo">For.um</h1>
+    </header>
+    <div class="newPost">
+        <a href="#" class="link_to_post" id="createPost">+ Nova postagem</a>
+    </div>
+    <section class="container">
+        <table id="data-table">
+            <thead>
+              <tr>
+                <th>Titulo</th>
+                <th>Detalhes</th>
+                <th>Autor</th>
+                <th>Data</th>
+                <th>Respostas</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="data-table">
+            </tbody>
+          </table>
+    </section>
+    <form id="myModal" class="modal" onsubmit="Form.submit(event)">
+        <div class="modal-content">
+          <span class="close">X</span>
+          <label for="postTitle">
+              <input id="postTitle" type="text" placeholder="Digite o titulo da postagem">
+          </label>
+          <label for="postContent">
+            <textarea placeholder="Digite o conteúdo da postagem" id="postContent" cols="30" rows="10" style="resize: none;"></textarea>
+          </label>
+          <div>
+            <input type="text" placeholder="Seu nome" id="postAuthor">
+            <input type="date" placeholder="Data da postagem" id="postDate" name="date">
+            <button>Publicar</button>
+          </div>
+        </div>
+    </form>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
