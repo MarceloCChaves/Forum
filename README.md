@@ -22,8 +22,7 @@
 $ git clone https://github.com/MarceloCChaves/Forum.git
 
 # Deploy
-### Tentei dar deploy em diversos sites diferentes, mas sem exito
-Link: https://forum-sable.vercel.app/ ( Não funciona )
+Link: forum-marcelocchaves.vercel.app
 
 # Autor
 Marcelo Chaves
